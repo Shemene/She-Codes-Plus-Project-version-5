@@ -1,0 +1,72 @@
+.display-1 {
+  /* Extra small devices (phones, less than 768px) */
+  font-size: 10px;
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 320px) {
+    font-size: 50px;
+  }
+
+  color: rgb(135, 135, 135);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 45px;
+}
+
+.display-6,
+.pre-wind {
+  /* Extra small devices (phones, less than 768px) */
+  font-size: 5px;
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 320px) {
+    font-size: 20px;
+  }
+}
+
+li {
+  color: rgb(135, 135, 135);
+  display: block;
+  font-family: "Oxygen", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  height: 19px;
+  line-height: 1px;
+}
+
+.card-title {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 500;
+}
+
+.card {
+  border-color: #dadde1;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 500px;
+  max-height: 800px;
+}
+
+.temperature {
+  color: black;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1px;
+}
+a {
+  text-decoration: none;
+}
+
+.units {
+  vertical-align: super; /* Adjust the vertical alignment */
+}
+
+@media screen (min-width: 375px) {
+  .temperaturelist h1 {
+    font-size: x;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@700&family=Roboto:ital@1&display=swap");
