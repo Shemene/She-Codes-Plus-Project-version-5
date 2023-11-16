@@ -1,5 +1,5 @@
 # She-Codes-Plus-Project-version-5
-Version 5 of porject (weather AP)
+Version 5 of project (weather AP)
 Weather App
 Description
 
